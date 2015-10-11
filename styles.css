@@ -1,0 +1,44 @@
+body {
+	background: black;
+}
+
+article { 	background-color: yellow;
+
+}
+
+h1 { width: auto;
+	}
+
+h2 + p {
+	float: left;
+	height: 200px;
+	margin-right: 2%;
+	width: 22%;
+	overflow: visible;
+	}
+
+h3 + p { 
+		float: left;
+	height: 200px;
+	margin-right: 2%;
+	width: 22%;
+	overflow: hidden;
+	}
+
+h4 + p { 
+		float: left;
+	height: 200px;
+	margin-right: 2%;
+	width: 22%;
+	overflow: scroll;
+	}
+h5 + p { 
+		float: left;
+	height: 200px;
+	margin-right: 2%;
+	width: 22%;
+	overflow: auto;
+	}
+
+h6 { width: auto;
+	}
